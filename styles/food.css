@@ -15,6 +15,19 @@ body {
     margin-right: auto;
 }
 
+/* shared style */
+.primary-btn {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #52C303;
+    border-radius: 8px;
+    border: 0;
+    margin-top: 32px;
+}
+
 #hero {
     color: white;
     height: 900px;
@@ -26,12 +39,31 @@ body {
     align-items: center;
 }
 
-#hero .hero-content{
+#hero .hero-content {
     width: 1023px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.htitle {
+#hero .hero-content .subtitle {
     font-size: 32px;
     font-weight: 600;
     text-align: center;
+    opacity: 0.8;
+}
+
+#hero .hero-content .title {
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#hero .hero-content .hero-text {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
 }
