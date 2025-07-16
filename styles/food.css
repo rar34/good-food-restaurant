@@ -24,7 +24,7 @@ body {
     padding: 20px 30px;
     background-color: #52C303;
     border-radius: 8px;
-    border: 0;
+    border: none;
     margin-top: 32px;
 }
 
@@ -66,4 +66,34 @@ body {
     text-align: center;
     opacity: 0.7;
     margin-top: 24px;
+}
+
+/* style for brand section */
+#card-box{
+    width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-subtitle {
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+    margin-top: 200px;
+}
+
+.card-title {
+    color: rgb(16, 16, 16);
+    width: 690px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
