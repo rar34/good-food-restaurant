@@ -139,3 +139,17 @@ body {
     font-size: 18px;
     font-weight: 500;
 }
+
+
+/* style for about section */
+
+.about-container{
+    display: flex;
+    /* flex-grow: 1; */
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content{
+    text-align: center;
+}
