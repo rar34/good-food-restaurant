@@ -85,7 +85,7 @@ body {
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.6;
-    margin-top: 200px;
+    margin-top: 85px;
 }
 
 .card-box-title {
@@ -199,4 +199,10 @@ body {
 .social-container img {
     width: 40px;
     margin: 34px 0;
+}
+
+.footer{
+    background-image: url("../assets/social-bg.png");
+    padding: 137px 0;
+    margin-top: 85px;
 }
