@@ -10,7 +10,7 @@
 }
 
 body {
-    width: 1920px;
+    max-width: 1920px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 #hero .hero-content {
-    width: 1023px;
+    max-width: 1023px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -70,7 +70,7 @@ body {
 
 /* style for brand section */
 #card-box {
-    width: 1320px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -90,7 +90,7 @@ body {
 
 .card-box-title {
     color: rgb(16, 16, 16);
-    width: 690px;
+    max-width: 690px;
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
@@ -109,7 +109,7 @@ body {
 
 .card {
     text-align: center;
-    width: 424px;
+    max-width: 424px;
 }
 
 .card img {
@@ -168,7 +168,7 @@ body {
     font-size: 48px;
     font-weight: 700;
     margin: 0 auto;
-    width: 804px;
+    max-width: 804px;
 }
 
 .about-text {
@@ -201,9 +201,25 @@ body {
     margin: 34px 0;
 }
 
-.footer{
+.footer {
     background-image: url("../assets/social-bg.png");
     background-size: cover;
     padding: 137px 0;
     margin-top: 85px;
+}
+
+
+/* responsive */
+/* for small device */
+
+@media screen and (max-width: 762px) {
+    .card-container {
+        flex-direction: column;
+    }
+    .about-container {
+        flex-direction: column;
+    }
+    body{
+        padding: 5px;
+    }
 }
